@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/*--- FONTES ---*/
+@font-face {
+    font-family: NASA;
+    src: url('../fontes/Nasa.ttf');
+}
+@font-face {
+    font-family: MODERNA;
+    src: url('../fontes/MODERNA_.TTF');
+}
+@font-face {
+    font-family: OPTIMA;
+    src: url('../fontes/OPTIMA.TTF');
+}
+/*--- ROOT ---*/
+:root {
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-header: NASA, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --font-titulos: MODERNA, Verdana, Geneva, Tahoma, sans-serif;
+    --font-paragrafos: OPTIMA, 'Times New Roman', Times, serif;
+
+/*--- PALETA ---*/
+    --cor1: #B49F35;
+    --cor2: #34344A;
+    --cor3: #A0D2DB;
+    --cor4: #BEE7E8;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 10px;
+}
+abbr {
+    text-decoration: none;
+}
+strong {
+   font-size: 1.1em; 
+   font-weight: bold;
+}
+header {
+    background-color: #34344A;
+    max-width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+}
+header h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: var(--cor1);
+    font-family: var(--font-header);
+    text-shadow: 1px 1px black;
+    font-size: 3em;
+}
+nav {
+    background-color: var(--cor3);
+    max-width: 1000px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    font-family: var(--font-titulos);
+}  
+a:hover {
+    color: var(--cor1);
+}
+div#img {
+    background-image: url('../imagens/telescopio-james-webb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: -20px;
+    max-width: 1000px;
+    height: 200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.603);
+}
+article {
+    max-width: 1000px;
+    background-image: linear-gradient(to right, #13a3bd6e, #13b1b471);
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: -10px;
+    padding-bottom: 30px;
+}
+article h1 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: var(--cor2);
+    max-width: 600px;
+    color: var(--cor1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font-titulos);
+    text-shadow: 1px 1px black;
+}
+article h2, h3, h4 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: var(--cor2);
+    max-width: 600px;
+    color: var(--cor1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--font-titulos);
+    text-shadow: 1px 1px black;
+}
+article p {
+    display: block;
+    margin: auto;
+    padding: 30px;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 20px;
+    background-color: white;
+    background-attachment: scroll;
+    max-width: 600px;
+    font-family: var(--font-padrao);
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.562);
+}
+aside {
+    max-width: 1000px;
+    margin: auto;
+    background-color: var(--cor2);
+    border-radius: 10px 10px 0px 0px;
+}
+aside h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: var(--font-titulos);
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+}
+aside p {
+    text-align: center;
+    text-align: justify;
+    padding: 20px;
+    font-family: var(--font-padrao);
+    color: aliceblue;
+}
+aside ul {
+    list-style-position: inside;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+footer {
+  background-color: black;  
+  max-width: 1000px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer p {
+    font-family: var(--font-padrao);
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+
