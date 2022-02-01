@@ -172,6 +172,7 @@ footer a {
     text-decoration: none;
     min-width: 1.1em;
     line-height: 20px;
+    padding-bottom: 10px;
 }
 footer p {
     font-family: var(--font-padrao);
